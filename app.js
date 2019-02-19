@@ -28,7 +28,7 @@ app.use('/assets', require('./routes/assets'));
 // handles Stellar accounts and our own user accounts
 app.use('/accounts', require('./routes/accounts'));
 
-app.listen(4444, () => {
+app.listen(4444 || process.env.PORT, () => {
     console.log('Server running on port 4444');
 });
 
