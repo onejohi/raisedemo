@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 
-mongoose.connect('mongodb://127.0.0.1:27017/raise', { useNewUrlParser: true });
+mongoose.connect('mongodb://onejohi:lisanjeri1@ds341605.mlab.com:41605/raisedemo', { useNewUrlParser: true });
 
 const app = express();
 
